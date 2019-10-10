@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0AE48B234F11B4009A54B9 /* ToForget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0AE48A234F11B4009A54B9 /* ToForget.swift */; };
 		FB965347234DC56900F8DE3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB965346234DC56900F8DE3A /* AppDelegate.swift */; };
 		FB965349234DC56900F8DE3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB965348234DC56900F8DE3A /* SceneDelegate.swift */; };
 		FB96534E234DC56900F8DE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB96534C234DC56900F8DE3A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0AE48A234F11B4009A54B9 /* ToForget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToForget.swift; sourceTree = "<group>"; };
 		FB965343234DC56900F8DE3A /* To Forget List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Forget List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB965346234DC56900F8DE3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB965348234DC56900F8DE3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB0AE489234F114B009A54B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB0AE48A234F11B4009A54B9 /* ToForget.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FB96533A234DC56900F8DE3A = {
 			isa = PBXGroup;
 			children = (
+				FB0AE489234F114B009A54B9 /* Model */,
 				FB965345234DC56900F8DE3A /* To Forget List */,
 				FB965344234DC56900F8DE3A /* Products */,
 			);
@@ -144,6 +155,7 @@
 				FB965347234DC56900F8DE3A /* AppDelegate.swift in Sources */,
 				FB965349234DC56900F8DE3A /* SceneDelegate.swift in Sources */,
 				FB965351234DC56900F8DE3A /* To_Forget_List.xcdatamodeld in Sources */,
+				FB0AE48B234F11B4009A54B9 /* ToForget.swift in Sources */,
 				FB96535E234DC97B00F8DE3A /* ToForgetTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
